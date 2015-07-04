@@ -1,7 +1,8 @@
 module.exports = {
   browser: {
     src: [
-      'index.js',
+      'test/browser/bind-polyfill.js',
+      'dist/paths.js',
       'node_modules/mocha-given/browser/mocha-given.js',
       'test/browser/setup.js',
       'node_modules/expect.js/index.js',
