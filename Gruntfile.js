@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     }
   });
   grunt.registerTask('mocha', ['mochaTest:test']);
-  grunt.reigsterTask('test', ['jshint:all', 'mocha', 'testem:ci:browser']);
+  grunt.registerTask('test', ['jshint:all', 'mocha', 'testem:ci:browser']);
   grunt.registerTask('default', ['browserify:paths', 'test']);
   grunt.registerTask('coverage', ['mochacov:html', 'open:coverage']);
   grunt.registerTask('ci', ['test', 'travis']);
