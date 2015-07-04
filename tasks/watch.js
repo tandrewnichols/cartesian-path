@@ -1,6 +1,6 @@
 module.exports = {
   tests: {
-    files: ['index.js', 'test/**/*.coffee'],
+    files: ['lib/**/*.js', 'test/**/*.coffee'],
     tasks: ['mocha'],
     options: {
       atBegin: true
