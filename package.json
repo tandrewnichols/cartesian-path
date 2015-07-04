@@ -53,5 +53,12 @@
   },
   "dependencies": {
     "consumed": "^1.0.0"
+  },
+  "config": {
+    "blanket": {
+      "pattern": [
+        "paths/lib"
+      ]
+    }
   }
 }
