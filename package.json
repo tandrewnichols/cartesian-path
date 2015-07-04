@@ -1,14 +1,14 @@
 {
-  "name": "cartesian-path",
+  "name": "paths",
   "version": "1.0.0",
   "description": "Generate an array of paths from a single path with braces, ala brace expansion",
-  "main": "lib/cartesian-path.js",
+  "main": "lib/paths.js",
   "scripts": {
     "test": "grunt"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tandrewnichols/cartesian-path.git"
+    "url": "https://github.com/tandrewnichols/paths.git"
   },
   "keywords": [
     "expand",
@@ -24,9 +24,9 @@
   "author": "Andrew Nichols",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tandrewnichols/cartesian-path/issues"
+    "url": "https://github.com/tandrewnichols/paths/issues"
   },
-  "homepage": "https://github.com/tandrewnichols/cartesian-path",
+  "homepage": "https://github.com/tandrewnichols/paths",
   "devDependencies": {
     "coffee-script": "^1.9.3",
     "expect.js": "^0.3.1",

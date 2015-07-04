@@ -4,10 +4,10 @@ module.exports = {
       {
         expand: true,
         cwd: "./",
-        src: "lib/cartesian-path.js",
+        src: "lib/paths.js",
         dest: "dist/",
         rename: function(dest, src) {
-          return dest + 'cartesian-path.js';
+          return dest + 'paths.js';
         }
       }
     ]
