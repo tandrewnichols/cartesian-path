@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: 'dist/paths.js',
-    dest: 'dist/paths.min.js'
+    src: 'dist/expand-path.js',
+    dest: 'dist/expand-path.min.js'
   }
 };

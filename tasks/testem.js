@@ -1,12 +1,12 @@
 module.exports = {
   browser: {
     src: [
-      'test/browser/bind-polyfill.js',
-      'dist/paths.js',
+      'test/helpers/bind-polyfill.js',
+      'dist/expand-path.js',
       'node_modules/mocha-given/browser/mocha-given.js',
-      'test/browser/setup.js',
+      'test/helpers/setup.js',
       'node_modules/expect.js/index.js',
-      'test/browser/*.coffee'
+      'test/*.coffee'
     ],
     options: {
       framework: 'mocha',

@@ -10,9 +10,9 @@ module.exports = function(grunt) {
   });
   grunt.registerTask('mocha', ['mochaTest:test']);
   grunt.registerTask('test', ['jshint:all', 'mocha', 'testem:ci:browser']);
-  grunt.registerTask('default', ['browserify:paths', 'test']);
+  grunt.registerTask('default', ['browserify:dist', 'test']);
   grunt.registerTask('coverage', ['mochacov:html', 'open:coverage']);
   grunt.registerTask('ci', ['test', 'travis']);
-  grunt.registerTask('build', ['clean:dist', 'browserify:paths', 'uglify:dist']);
-  grunt.registerTask('browser', ['browserify:paths', 'testem:run:browser']);
+  grunt.registerTask('build', ['clean:dist', 'browserify:dist', 'uglify:dist']);
+  grunt.registerTask('browser', ['browserify:dist', 'testem:run:browser']);
 };

@@ -1,10 +1,10 @@
 module.exports = {
-  paths: {
+  dist: {
     src: ['lib/**'],
-    dest: 'dist/paths.js',
+    dest: 'dist/expand-path.js',
     options: {
       browserifyOptions: {
-        standalone: 'paths'
+        standalone: 'expand'
       }
     }
   }
