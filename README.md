@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/expand-path.png)](https://travis-ci.org/tandrewnichols/expand-path) [![downloads](http://img.shields.io/npm/dm/expand-path.svg)](https://npmjs.org/package/expand-path) [![npm](http://img.shields.io/npm/v/expand-path.svg)](https://npmjs.org/package/expand-path) [![Code Climate](https://codeclimate.com/github/tandrewnichols/expand-path/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/expand-path/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![dependencies](https://david-dm.org/tandrewnichols/expand-path.png)](https://david-dm.org/tandrewnichols/expand-path)
+[![Build Status](https://travis-ci.org/tandrewnichols/expand-path.png)](https://travis-ci.org/tandrewnichols/expand-path) [![downloads](http://img.shields.io/npm/dm/expand-path.svg)](https://npmjs.org/package/expand-path) [![npm](http://img.shields.io/npm/v/expand-path.svg)](https://npmjs.org/package/expand-path) [![Code Climate](https://codeclimate.com/github/tandrewnichols/expand-path/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/expand-path/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![dependencies](https://david-dm.org/tandrewnichols/expand-path.png)](https://david-dm.org/tandrewnichols/expand-path) ![Size](https://img.shields.io/badge/size-4.0kb-brightgreen.svg)
 
 # expand-path
 
@@ -15,6 +15,25 @@ Pass in a path with brackets, braces, or angled brackets and get an array of mat
 ## Usage
 
 You can use `expand-path` to get a list of object paths (e.g. for use with lodash `_.get`) or with file paths. `expand-path` doesn't care about the separator (or even check what it is). It just expands a "path" with brackets into multiple paths (essentially a cartesian product of the possible paths).
+
+### Node
+
+```js
+var expand = require('expand-path');
+```
+
+### Browser
+
+Use whatever serving mechanism you prefer and serve `dist/expand-path.js` or `dist/expand-path.min.js`, then access it globally with `expandPath`.
+
+```html
+<script src="/dist/expand-path.js"></script>
+<script>
+  var paths = expandPath('foo.ba[r,z]');
+</script>
+```
+
+This script is a measly 4.0kb minified.
 
 ### With object paths
 

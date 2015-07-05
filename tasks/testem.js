@@ -13,7 +13,7 @@ module.exports = {
       parallel: 2,
       reporter: 'tap',
       launch_in_ci: ['PhantomJS'],
-      launch_in_dev: ['PhantomJS', 'Chrome'],
+      launch_in_dev: ['PhantomJS', 'Chrome', 'Firefox', 'Safari'],
       reporter: 'dot'
     }
   }
