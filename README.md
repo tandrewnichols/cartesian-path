@@ -2,7 +2,7 @@
 
 # expand-path
 
-Generate an array of paths from a single path with braces, ala brace expansion
+Super light-weight brace expansion for node
 
 ## Installation
 

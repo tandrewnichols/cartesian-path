@@ -1,7 +1,7 @@
 {
   "name": "expand-path",
   "version": "1.0.0",
-  "description": "Generate an array of paths from a single path with braces, ala brace expansion",
+  "description": "Super light-weight brace expansion for node",
   "main": "lib/expand-path.js",
   "scripts": {
     "test": "grunt"
