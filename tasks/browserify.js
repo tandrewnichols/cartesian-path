@@ -4,7 +4,7 @@ module.exports = {
     dest: 'dist/expand-path.js',
     options: {
       browserifyOptions: {
-        standalone: 'expand'
+        standalone: 'expandPath'
       }
     }
   }

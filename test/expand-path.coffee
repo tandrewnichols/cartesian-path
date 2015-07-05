@@ -3,7 +3,7 @@ hasRequire = typeof require == 'function'
 expect = if hasRequire then require('expect.js') else expect
 
 describe 'expand-path', ->
-  Given -> @expand = if hasRequire then require '../lib/expand-path' else window.expand
+  Given -> @expand = if hasRequire then require '../lib/expand-path' else window.expandPath
 
   context 'with no expansion', ->
     When -> @list = @expand 'foo.bar.baz'
