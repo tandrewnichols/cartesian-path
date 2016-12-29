@@ -4,7 +4,9 @@
   "description": "Super light-weight brace expansion for node",
   "main": "lib/expand-path.js",
   "scripts": {
-    "test": "grunt"
+    "test": "grunt",
+    "travis": "grunt ci",
+    "codeclimate": "codeclimate-test-reporter < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -26,36 +28,28 @@
   },
   "homepage": "https://github.com/tandrewnichols/expand-path",
   "devDependencies": {
+    "codeclimate-test-reporter": "^0.4.0",
     "coffee-script": "^1.9.3",
-    "expect.js": "^0.3.1",
-    "grunt": "^0.4.5",
-    "grunt-browserify": "^3.8.0",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-testem": "^0.5.16",
-    "grunt-contrib-uglify": "^0.9.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-cov": "^0.4.0",
-    "grunt-mocha-test": "^0.12.7",
+    "eslint-codeframe-formatter": "^1.0.2",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-mocha-test": "^0.13.2",
     "grunt-open": "^0.2.3",
-    "grunt-travis-matrix": "0.0.5",
-    "indeed": "^1.0.6",
-    "jshint-stylish": "^2.0.1",
-    "mocha": "^2.2.5",
+    "grunt-shell": "^2.1.0",
+    "grunt-simple-istanbul": "^3.0.2",
+    "grunt-testem-mincer": "^0.5.18",
+    "grunt-travis-matrix": "1.0.0",
+    "mocha": "^3.2.0",
     "mocha-given": "^0.1.3",
-    "mocha-lcov-reporter": "0.0.2",
-    "proxyquire": "^1.5.0",
-    "sinon": "^1.15.4",
+    "should": "^11.1.2",
     "task-master": "^2.2.1"
   },
   "dependencies": {
     "consumed": "^1.0.0"
-  },
-  "config": {
-    "blanket": {
-      "pattern": [
-        "expand-path/lib"
-      ]
-    }
   }
 }
