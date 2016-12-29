@@ -1,6 +1,6 @@
 {
   "name": "expand-path",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Super light-weight brace expansion for node",
   "main": "lib/expand-path.js",
   "scripts": {
