@@ -56,7 +56,7 @@ var list = expand('foo.bar.[baz,quux].[hello,goodbye].world');
 
 ```js
 var expand = require('expand-path');
-var list = expand('foo/bar/[baz,quux]/hello/world[.js,spec-coffee]');
+var list = expand('foo/bar/[baz,quux]/hello/world[.js,-spec.coffee]');
 
 /*
  * "list" equals:
