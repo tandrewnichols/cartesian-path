@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/tandrewnichols/expand-path.png)](https://travis-ci.org/tandrewnichols/expand-path) [![downloads](http://img.shields.io/npm/dm/expand-path.svg)](https://npmjs.org/package/expand-path) [![npm](http://img.shields.io/npm/v/expand-path.svg)](https://npmjs.org/package/expand-path) [![Code Climate](https://codeclimate.com/github/tandrewnichols/expand-path/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/expand-path/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![dependencies](https://david-dm.org/tandrewnichols/expand-path.png)](https://david-dm.org/tandrewnichols/expand-path) ![Size](https://img.shields.io/badge/size-1.7kb-brightgreen.svg)
+[![Build Status](https://travis-ci.org/tandrewnichols/expand-path.png)](https://travis-ci.org/tandrewnichols/expand-path) [![downloads](http://img.shields.io/npm/dm/expand-path.svg)](https://npmjs.org/package/expand-path) [![npm](http://img.shields.io/npm/v/expand-path.svg)](https://npmjs.org/package/expand-path) [![Code Climate](https://codeclimate.com/github/tandrewnichols/expand-path/badges/gpa.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![Test Coverage](https://codeclimate.com/github/tandrewnichols/expand-path/badges/coverage.svg)](https://codeclimate.com/github/tandrewnichols/expand-path) [![dependencies](https://david-dm.org/tandrewnichols/expand-path.png)](https://david-dm.org/tandrewnichols/expand-path) ![Size](https://img.shields.io/badge/size-1.1kb-brightgreen.svg)
 
 # expand-path
 
@@ -33,7 +33,7 @@ Use whatever serving mechanism you prefer and serve `dist/expand-path.js` or `di
 </script>
 ```
 
-This script is a measly 1.7kb minified.
+This script is a measly 1.1kb minified.
 
 ### With object paths
 
