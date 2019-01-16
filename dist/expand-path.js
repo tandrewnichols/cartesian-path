@@ -72,6 +72,11 @@
         var branches = braceStr.replace(brace, '').replace(braces[brace], '').split(/\s*,\s*/g);
         paths = branches.reduce(_reducePaths.bind(null, paths), []);
       }
+
+      if (consumer.str) {
+        paths = paths.map(_extendStr.bind(null, consumer.str));
+      }
+
       return paths;
     }
   };

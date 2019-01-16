@@ -40,3 +40,12 @@ describe 'expand-path', ->
         'foo.bar.baz.hello.world-spec.coffee',
         'foo.bar.quux.hello.world-spec.coffee'
       ]
+
+    context 'with path sections after the expansion', ->
+      When -> @list = @expand 'foo.bar.{baz,quux}.{hello,goodbye}.world'
+      Then -> @list.should.eql [
+        'foo.bar.baz.hello.world',
+        'foo.bar.quux.hello.world',
+        'foo.bar.baz.goodbye.world',
+        'foo.bar.quux.goodbye.world'
+      ]
